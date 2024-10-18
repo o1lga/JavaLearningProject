@@ -28,7 +28,7 @@ public class VariablesAndComments {
         falseBooleanVariable = false;
         trueBooleanVariable = true;
         firstCharFromAscii = 0;
-        lastCharFromAscii = '\u007F';
+        lastCharFromAscii = 65535;
         lowerLimitOfByteDataType = -128;
         upperLimitOfByteDataType = 127;
         lowerLimitOfShortDataType = -32768;
@@ -43,6 +43,9 @@ public class VariablesAndComments {
         upperLimitOfDoubleDataType = 1.7E+308;
 
         System.out.println(firstCharFromAscii);
+        System.out.println(upperLimitOfLongDataType);
+
+        // CTRL + ALT + L - pretty code
 
     }
 
