@@ -63,6 +63,7 @@ public class Person {
     public int getAge() {
         return this.age;
     }
+
     // Proprietatea is.Retired este de tipul boolean si serveste drept conditie pentru instructiunea IF
     public void printRetirementStatus() {
         if (isRetired) {
